@@ -6,8 +6,8 @@
 trigger:
 - master
 
-resources:
-- repo: self
+#resources:
+#- repo: self
 
 variables:
   dockerfilePath: '$(Build.SourcesDirectory)/src/Dockerfile'
